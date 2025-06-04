@@ -5,22 +5,22 @@ const Home = () => {
 
     const features = [
         {
-            icon: "👥",
+            icon: "bi bi-hospital",
             desc: "Optimized Store Operations for streamlined workflow.",
             borderColor: "#007bff",
         },
         {
-            icon: "📦",
+            icon: "bi bi-graph-up-arrow",
             desc: "Innovative Inventory Model for strategic stock management.",
             borderColor: "#00bcd4",
         },
         {
-            icon: "💰",
+            icon:"bi bi-diagram-3-fill",
             desc: "Unique Procurement Process for cost-effective sourcing.",
             borderColor: "#4caf50",
         },
         {
-            icon: "💊",
+            icon: "bi bi-braces-asterisk",
             desc: "End-to-End Pharmacy Software for seamless operations.",
             borderColor: "#00bcd4",
         },
@@ -28,54 +28,50 @@ const Home = () => {
 
     return (
         <div classNameName="home">
-            <div classNameName="header">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <div className="container-fluid">
-   <img src="images/logo.png" alt=""/>
+                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                    <div className="container-fluid">
+                        <img src="images/logo.png" alt="" />
 
-    <button
-      className="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span className="navbar-toggler-icon"></span>
-    </button>
+                        <button
+                            className="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span className="navbar-toggler-icon"></span>
+                        </button>
 
-    <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul className="navbar-nav align-items-lg-center">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Services</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">About</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Contact Us</a>
-        </li>
-        <li className="nav-item ms-lg-3">
-          <button className="btn btn-success">
-            <i className="bi bi-telephone-fill me-1"></i> +91 7288877959
-          </button>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-            </div>
-            <div className="content">
+                        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul className="navbar-nav align-items-lg-center">
+                                <li className="nav-item">
+                                    <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">Services</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">About</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">Contact Us</a>
+                                </li>
+                                <li className="nav-item ms-lg-3">
+                                    <button className="btn btn-success">
+                                        <i className="bi bi-telephone-fill me-1"></i> +91 7288877959
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            <div className="tech-content">
                 <div className="d-flex justify-content-between align-items-center">
                     <div className="part-one">
                         <h1>First <span>Tech enabled</span><br />Omni present<br /><span>Pharmacy</span> Retail chain</h1>
-                        <button className="custom-btn">
+                        <button >
                             <span className="fill-bg"></span>
                             <span className="btn-label">COMING SOON</span>
                         </button>
@@ -94,7 +90,7 @@ const Home = () => {
                             className="feature-card"
                             style={{ borderTop: `3px solid ${item.borderColor}` }}
                         >
-                            <div className="icon">{item.icon}</div>
+                            <div className="icon"><i className={item.icon} style={{ color: item.borderColor }}></i></div>
                             <p className="desc">{item.desc}</p>
                         </div>
                     ))}
@@ -105,12 +101,12 @@ const Home = () => {
                 <div className="convenience-paragraphs">
                     <h2>Unmatched Convenience</h2>
                     <p>
-                        <i className="bi bi-check-circle-fill check-icon"></i>{" "}
+                        <i className="bi bi-check-circle-fill check-icon"></i>
                         Provide Seamless Home Deliveries for ultimate customer satisfaction.
                     </p>
                     <p>
-                        <i className="bi bi-check-circle-fill check-icon"></i>{" "}
-                        Comprehensive Support: From setup to supply chain, we ensure you have the resources you need.
+                        <i className="bi bi-check-circle-fill check-icon"></i>
+                        Comprehensive Support: From setup to supply chain, we ensure resources you need.
                     </p>
                     <button className="cta-button">Call us to know more</button>
                 </div>
