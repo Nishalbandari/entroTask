@@ -50,13 +50,13 @@ const Home = () => {
                                     <a className="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Services</a>
+                                    <a className="nav-link" href="/services">Services</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">About</a>
+                                    <a className="nav-link" href="/home">About</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Contact Us</a>
+                                    <a className="nav-link" href="/contact">Contact Us</a>
                                 </li>
                                 <li className="nav-item ms-lg-3">
                                     <button className="btn btn-success">
