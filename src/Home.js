@@ -47,13 +47,13 @@ const Home = () => {
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                             <ul className="navbar-nav align-items-lg-center">
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a className="nav-link active" aria-current="page" href="/home">Home</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="/services">Services</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/home">About</a>
+                                    <a className="nav-link" href="/about">About</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="/contact">Contact Us</a>
@@ -134,13 +134,13 @@ const Home = () => {
                     <div className="footer-social-icons">
                         <p>Made With Love By Entro Labs It sollutions, All Right Reserved .</p>
                         <div className="social-icons">
-                            <a href="https://www.facebook.com/entrolabs" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
                                 <i className="bi bi-facebook"></i>
                             </a>
-                            <a href="https://www.instagram.com/entrolabs/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                                 <i className="bi bi-instagram"></i>
                             </a>
-                            <a href="https://www.linkedin.com/company/entrolabs/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
                                 <i className="bi bi-linkedin"></i>
                             </a>
                         </div>
